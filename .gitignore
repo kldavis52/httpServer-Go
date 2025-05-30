@@ -1,0 +1,33 @@
+# Compiled binaries and packages
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+*.obj
+
+# Go build cache
+/pkg/
+/bin/
+
+# Dependency management tools
+# For Go modules, the 'vendor' directory is often committed, but can be ignored if preferred.
+# If you are using a different dependency tool, you might need to add its specific cache/vendor directories.
+# vendor/
+
+# Test results
+testdata/
+*.test
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
